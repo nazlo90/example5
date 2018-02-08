@@ -1,0 +1,450 @@
+/*   
+Theme Name: Shool grant farm
+Theme URI: http://localhost
+Description: 
+Author: 
+Author URI: 
+Template: 
+Version: 
+*/
+
+footer{
+    width: 100%;
+    height: 82.707px;
+    background-color: #C47C24;
+    margin-bottom: 20px;
+}
+
+.footer_inner{
+    padding: 0 114.189px;
+}
+
+@media (max-width: 1170px) {
+    .footer_inner{
+        padding: 0;
+        display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+.footer_inner .copyright{
+    display: inline-block;
+}
+
+
+.footer_inner .copyright p{
+    color: #DB8D2A;
+}
+
+.footer_inner .sub_menu_place{
+    display: inline-block;
+    margin: 0 58.96px;
+    line-height: 62.03px;
+}
+
+@media (max-width: 1170px) {
+    .footer_inner .sub_menu_place {
+        /* display: inline-block; */
+        /* margin: 0 58.96px; */
+        /* line-height: 62.03px; */
+        display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (max-width: 470px) {
+    .footer_inner .sub_menu_place {
+        /* display: inline-block; */
+        margin: 0;
+        /* line-height: 62.03px; */
+        display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /*flex-direction: column;*/
+        align-items: center;
+    }
+}
+
+.footer_inner .sub_menu_place ul{
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+
+.footer_inner .sub_menu_place .menu_details{
+    margin: 0px 6.48px;
+}
+
+.footer_inner .sub_menu_place .menu_about{
+    margin: 0 8.48px;
+}
+
+@media (max-width: 1170px) {
+    .footer_inner .sub_menu_place .menu_details, .footer_inner .sub_menu_place .menu_about{
+        margin: 0;
+    }
+}
+
+.footer_inner .sub_menu_place ul li{
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+
+.footer_inner .sub_menu_place .menu_details li{
+    font-weight: bold;
+    font-family: 'Circe_Bold';
+    padding: 0 21.34px;
+    line-height: 82.7px;
+}
+
+@media (max-width: 470px) {
+    .footer_inner .sub_menu_place .menu_details li {
+        font-weight: bold;
+        font-family: 'Circe_Bold';
+        padding: 0 5px;
+        line-height: 25px;
+    }
+}
+
+.footer_inner .sub_menu_place .menu_details li a{
+    color: #fff;
+}
+
+.footer_inner .sub_menu_place .menu_about li{
+    font-size: 12px;
+    font-size: 0.75rem;
+    padding: 0 8px;
+    color: #fff;
+}
+
+.footer_inner .sub_menu_place .menu_about li a{
+    color: #fff;
+}
+
+
+.container-video {
+    overflow: hidden;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    max-width: 700px;
+    display: none;
+}
+
+.container-video input {
+    position: relative;
+    top: 30px;
+    right: 5px;
+    z-index: 9999999;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+.background{
+    display: none;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.9);
+}
+
+.modal{
+    background-color: #fff;
+    height: auto;
+    z-index: 20;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.modal .close{
+    position: absolute;
+    top: -25px;
+    right: -20px;
+    color: #fff;
+    font-family: 'Circe_ExtraLight';
+}
+
+.modal .close img{
+    width: 14.407px;
+}
+
+.modal .modal_head{
+    
+}
+
+.modal .modal_head p{
+    text-align: center;
+    font-family: 'Circe_Regular';
+    font-size: 36px;
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.modal .modal_head .under_head{
+    text-align: center;
+    font-family: 'Circe_Regular';
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.modal .modal_head .under_head a{
+    font-size: inherit;
+}
+
+/*------------------------------------------log_in------------------------------------------*/
+
+.modal_log_in{
+    width: 373.515px;
+    display: none;
+    padding: 45.09px 40.09px 57.09px 57.09px;
+}
+
+
+
+.modal form input{
+    width: 100%;
+    border: 1px solid #D4D1CC;
+    text-indent: 15px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 20px 10px 5px;
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Circe_Regular';
+}
+
+.modal form input::-webkit-input-placeholder {
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Circe_Regular';
+}
+
+.modal form input::-moz-placeholder {
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Circe_Regular';
+}
+
+.modal form input:-moz-placeholder {
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Circe_Regular';
+}
+
+.modal form input:-ms-input-placeholder {
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Circe_Regular';
+}
+
+.modal form .forgot{
+    text-align: right;
+    color: #006AFE;
+    text-transform: uppercase;
+    font-size: 7.9px;
+    font-size: 0.49375rem;
+    display: block;
+    margin: 18.675px 0;
+}
+
+.modal form  .sign_up_modal{
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #A5CD60;
+}
+
+/*------------------------------------------Update your password------------------------------------------*/
+
+.modal_update_u_pass{
+    width: 458.89px;
+    display: none;
+    padding: 53.359px;
+}
+
+.modal .modal_head .update_text{
+    text-align: center;
+    font-family: 'Circe_Regular';
+    font-size: 36px;
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+.modal form  .submit{
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin: 40px 0 0;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #A5CD60;
+}
+
+/*------------------------------------------Update your password------------------------------------------*/
+
+.modal_sign_in{
+    width: 373.515px;
+    display: none;
+    padding: 53.359px 75.359px;
+    background-color: #A5CD60;
+}
+
+.modal_sign_in .modal_head p{
+    text-align: center;
+    font-family: 'Circe_Regular';
+    font-size: 36px;
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.modal_sign_in a.sign_in_buttons{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 40px;
+    margin: 40px 0 0;
+    border-radius: 15px;
+    background-color: #DB8D2A;
+    text-align: center;
+}
+
+/*------------------------------------------Individual Sign Up------------------------------------------*/
+
+.modal_individual_sign_up{
+    width: 373.515px;
+    display: none;
+    padding: 53.359px 44px 0;
+}
+
+.modal_individual_sign_up a.sign_up_modal{
+    margin: 40px 0;
+}
+
+/*------------------------------------------District Sign Up------------------------------------------*/
+
+.modal_district_sign_up{
+    width: 464.226px;
+    display: none;
+    padding: 44px 44px 0;
+}
+
+.modal_district_sign_up a.sign_up_modal{
+    margin: 20px 0;
+}
+
+/*------------------------------------------School Sign Up------------------------------------------*/
+
+.modal_school_sign_up{
+    width: 464.226px;
+    display: none;
+    padding: 44px 44px 0;
+}
+
+.modal_school_sign_up a.sign_up_modal{
+    margin: 20px 0;
+}
+
+
+/*------------------------------------------Info------------------------------------------*/
+
+.modal_school_info{
+    width: 464.226px;
+    display: none;
+    padding: 44px 44px 0;
+}
+
+.modal_school_info a.sign_up_modal{
+    margin: 20px 0;
+}
+
+/*------------------------------------------Documents------------------------------------------*/
+
+.modal_documents{
+    width: 464.226px;
+    display: none;
+    padding: 44px 44px 0;
+}
+
+.modal_documents a.sign_up_modal{
+    margin: 20px 0;
+}
+
+/*------------------------------------------Ledger------------------------------------------*/
+
+.was_added_to_ledger{
+    width: 461.025px;
+    display: none;
+    padding: 44px 44px 0;
+}
+
+.was_added_to_ledger p{
+    text-align: center;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.was_added_to_ledger .will_change{
+    font-family: 'Circe_Bold';
+}
+
+.was_added_to_ledger .will_change span{
+    font-family: 'Circe_Regular';
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.was_added_to_ledger .go_to{
+    color: #fff;
+    background-color: #A5CD60;
+    padding: 10px 34px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+}
